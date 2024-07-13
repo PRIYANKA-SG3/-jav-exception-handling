@@ -1,0 +1,44 @@
+class b implements Runnable
+{
+  public void run()
+  {
+    for(int i=0;i<=5;i++)
+      System.out.print("books");
+    try
+    {
+      Thread.sleep(1000);
+    }
+    cache(InterruptedException e)
+    {
+      e.printStackTrace();
+    }
+    class num extends Thread()
+    {
+      public void run()
+      {
+        for(int i=1;i<=5;i++)
+          {
+          System.out.print(i);
+          try
+          {
+            Thread.sleep(2000);
+          }
+          cache(InteruptedException)
+          {
+            e.printStackTrace();
+          }
+          }
+        }
+      }
+    public class exception
+    {
+      public static void main(String[] args)
+      {
+        Runnable b=new b();
+        bum num=new num();
+        Thread t=new Threas (b);
+        t.start();
+        num.start();
+      }
+    }
+        
